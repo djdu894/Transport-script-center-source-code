@@ -90,7 +90,7 @@ local function CreateGUI(title)
     agreeFrame.Size = UDim2.new(0.8, 0, 0.5, 0)
     agreeFrame.Position = UDim2.new(0.1, 0, 0.22, 0)
     agreeFrame.BackgroundColor3 = Color3.fromRGB(240, 240, 240)
-    agreeFrame.Text = "1此脚本为缝合脚本，2如果用这个脚本被封了我不付任何责任，毕竟开挂有风险，3最重要的一点，UI我是照搬别人的"
+    agreeFrame.Text = "1换了UI  2力量传奇添加了更多功能"
     agreeFrame.TextWrapped = true
 
     
@@ -168,5 +168,5 @@ local function CreateGUI(title)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/djdu894/Handling-Script-Center/refs/heads/main/%E8%84%9A%E6%9C%AC%E4%BB%A3%E7%A0%811.lua"))()
     end)
 end
-local myTitle = "搬运脚本说明" 
+local myTitle = "搬运脚本更新说明" 
 CreateGUI(myTitle)
